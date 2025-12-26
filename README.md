@@ -1,5 +1,5 @@
 # Urbanium Protocol (Solana) — Technical Spec (Anchor Program + TypeScript SDK)
-[Urbanium](assets/background-urbanium.jpeg)
+![Urbanium](assets/background-urbanium.jpeg)
 [![Solana](https://img.shields.io/badge/Solana-mainnet-black)](https://solana.com)
 [![Anchor](https://img.shields.io/badge/Anchor-0.30.x-blue)](https://www.anchor-lang.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue)](https://www.typescriptlang.org)
