@@ -1,0 +1,19 @@
+[features]
+seeds = true
+skip-lint = false
+
+[provider]
+cluster = "mainnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.mainnet]
+urbanium = "7XzKxpTmsiTevyC9KYaFZbpGp9NnJ2VwK6ie7RdKZXBW"
+
+[programs.devnet]
+urbanium = "7XzKxpTmsiTevyC9KYaFZbpGp9NnJ2VwK6ie7RdKZXBW"
+
+[programs.localnet]
+urbanium = "7XzKxpTmsiTevyC9KYaFZbpGp9NnJ2VwK6ie7RdKZXBW"
+
+[scripts]
+test = "npm -w tests test"

@@ -1,0 +1,20 @@
+{
+  "name": "urbanium-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "mocha -r ts-node/register/transpile-only \"./**/*.ts\""
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.98.0",
+    "chai": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "mocha": "^10.7.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
